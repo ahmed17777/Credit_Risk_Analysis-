@@ -3,6 +3,9 @@
 Syed Ahmed
 June 22, 2021 
 
+![Risk](https://user-images.githubusercontent.com/45697471/123014463-4e776480-d394-11eb-892c-505aca608aad.png)
+
+
 ## Overview 
 
 This project utilizes various machine learning algorithms to predict credit risk by means of classification. 
