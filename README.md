@@ -111,3 +111,10 @@ In this section, I will compare two ensemble algorithms to determine which algor
 
 
 ## Summary 
+
+The best model tested in this project to predict the unbalanced classification problem of credit risk is Ensemble Classifier. The Balanced Random Forest Classifier comes in a close second, and this is due to the fact that both these algorithms have a high accuracy score (almost 1 for Easy Ensemble) , high precision, and high recall. The other algorithms we tested simply do not have a high enough accuracy score, and some of them lack in recall scores, which is why I cannot recommend them for identifying credit risk. 
+
+My recommendation for the banks is to keep looking for an algorithm, however. Although the Ensemble Classifier returns high overall precision, recall, and accuracy, the precision for predicting high risk credit is only 0.08, which is very low. This means that the algorithm is capable of predicting low risk credit with high precision, but when it comes to predicting the type of risk that matters, it is not very precise. 
+
+## Contact 
+E-mail: mishaal22s@gmail.com 
