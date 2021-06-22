@@ -93,8 +93,21 @@ In this section, I will compare two ensemble algorithms to determine which algor
 - For the Balanced Random Forest Classifier onely, print the feature importance sorted in descending order (most important feature to least important) along with the feature score
 - Use a random state of 1 for each algorithm to ensure consistency between tests
 
+### Balanced Random Forest Classifier
 
 ![6](https://user-images.githubusercontent.com/45697471/123008908-c9874d80-d389-11eb-9042-6e8ef5561815.png)
 
+- Balanced accuracy score: 0.78
+- Precision: 0.99
+- Recall: 0.89
+
+### Easy Ensemble Classifier
 
 ![7](https://user-images.githubusercontent.com/45697471/123008914-cc823e00-d389-11eb-9009-4cc904eeac67.png)
+
+- Balanced accuracy score: 0.93
+- Precision: 0.99
+- Recall: 0.94 
+
+
+## Summary 
