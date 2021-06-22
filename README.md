@@ -27,3 +27,24 @@ In this section, I will compare two oversampling algorithms to determine which a
 - Generate a classication report using the imbalanced_classification_report from imbalanced-learn.
 - Use a random state of 1 for each sampling algorithm to ensure consistency between tests
 
+### Undersampling 
+
+In this section, I will test an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above. I will undersample the data using the Cluster Centroids algorithm and complete the folliowing steps:
+
+- View the count of the target classes using Counter from the collections library.
+- Use the resampled data to train a logistic regression model.
+- Calculate the balanced accuracy score from sklearn.metrics.
+- Print the confusion matrix from sklearn.metrics.
+- Generate a classication report using the imbalanced_classification_report from imbalanced-learn.
+- Use a random state of 1 for each sampling algorithm to ensure consistency between tests
+
+### Ensemble Learners 
+
+In this section, I will compare two ensemble algorithms to determine which algorithm results in the best performance. I will train a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier . For each algorithm, I will follow these steps: 
+
+- Train the model using the training data.
+- Calculate the balanced accuracy score from sklearn.metrics.
+- Print the confusion matrix from sklearn.metrics.
+- Generate a classication report using the imbalanced_classification_report from imbalanced-learn.
+- For the Balanced Random Forest Classifier onely, print the feature importance sorted in descending order (most important feature to least important) along with the feature score
+- Use a random state of 1 for each algorithm to ensure consistency between tests
