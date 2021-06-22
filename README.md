@@ -34,9 +34,15 @@ In this section, I will compare two oversampling algorithms to determine which a
 
 ![2](https://user-images.githubusercontent.com/45697471/123008821-96dd5500-d389-11eb-9383-fd296c8d78a3.png)
 
+- Balanced accuracy score: 0.65
+- Precision: 0.99
+- Recall: 0.69
 
 ![3](https://user-images.githubusercontent.com/45697471/123008852-a8bef800-d389-11eb-912c-fdd1a7887010.png)
 
+- Balanced accuracy score: 0.63
+- Precision: 0.99
+- Recall: 0.63
 
 ### Undersampling 
 
