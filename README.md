@@ -55,8 +55,13 @@ In this section, I will test an undersampling algorithms to determine which algo
 - Generate a classication report using the imbalanced_classification_report from imbalanced-learn.
 - Use a random state of 1 for each sampling algorithm to ensure consistency between tests
 
+### ClusterCentroids Undersampling 
+
 ![4](https://user-images.githubusercontent.com/45697471/123008875-b70d1400-d389-11eb-8d7a-1b5ba237e5d2.png)
 
+- Balanced accuracy score: 0.52
+- Precision: 0.99
+- Recall: 0.47
 
 ### Combination Sampling 
 
@@ -69,8 +74,13 @@ In this section, I will test a combination over- and under-sampling algorithm to
 - For the Balanced Random Forest Classifier onely, print the feature importance sorted in descending order (most important feature to least important) along with the feature score
 - Use a random state of 1 for each algorithm to ensure consistency between tests
 
+### Combination Sampling with SMOTEENN
+
 ![5](https://user-images.githubusercontent.com/45697471/123008895-c4c29980-d389-11eb-9041-36fe32c74ac7.png)
 
+- Balanced accuracy score: 0.62
+- Precision: 0.99
+- Recall : 0.54
 
 ### Ensemble Learners 
 
